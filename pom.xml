@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.2.1.812</version>
+	<version>0.123.123</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.127.138.54:9000/</sonar.host.url>
-		<sonar.login>ecabf2f89139a8c783e94e82d68a08b80eb8442a</sonar.login>
+		<sonar.host.url>http://13.127.138.54:9000</sonar.host.url>
+		<sonar.login>0b287eb3e352205517538402c61d27e291e5822c</sonar.login>
 		<!-- <sonar.password>admin</sonar.password> -->
 		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.126.203.211:8081/repository/Darshan-release/</url>
+	      <url>http://13.232.209.239:8081/repository/Darshan-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.126.203.211:8081/repository/Darshan-snapshot/</url>
+	      <url>http://13.232.209.239:8081/repository/Darshan-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
