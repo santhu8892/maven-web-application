@@ -5,14 +5,14 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.1.1.18</version>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun</name>
+		<name>Mithun Technologies</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
@@ -22,8 +22,8 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://52.66.238.225:9000/</sonar.host.url>
-		<sonar.login>8d2fb3b27eb8de4029866d0c34e511056593c15a</sonar.login>
-		<!-- <sonar.password>password</sonar.password> -->
+		<sonar.login>579dc3e15fe771c5efba52685e5ca1372d5bbb64/sonar.login>
+		<!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://52.66.207.36:8081/repository/hello-release/</url>
+	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.66.207.36:8081/repository/hello-snap/</url>
+	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
